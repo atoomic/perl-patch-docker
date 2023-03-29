@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Publish to Registry
+    - name: "Build & Publish to Registry"
       uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: at00mic/perl-compiler
